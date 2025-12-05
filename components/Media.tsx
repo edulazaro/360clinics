@@ -78,6 +78,57 @@ export default function Media() {
                 <p className="text-gray-600">Crónica del caso</p>
               </div>
             </a>
+
+            <a
+              href="https://www.consumidorglobal.com/noticias/vendian-sesiones-por-vida-operaba-360clinics-antes-cerrar-dejar-miles-afectados_17053_102.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div className="w-14 h-14 bg-primary-600 text-white rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-bold text-gray-900 text-lg">Consumidor Global</p>
+                <p className="text-gray-600">Sesiones por vida</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.granadadigital.es/afectados-cierre-360-clinics-granada/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div className="w-14 h-14 bg-primary-600 text-white rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-bold text-gray-900 text-lg">Granada Digital</p>
+                <p className="text-gray-600">Afectados en Granada</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.eldebate.com/espana/la-voz-de-cordoba/sociedad/20251104/cierre-repentino-360-clinics-deja-cordoba-numerosos-clientes-tratamiento-terminar_351798.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
+            >
+              <div className="w-14 h-14 bg-primary-600 text-white rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-bold text-gray-900 text-lg">El Debate</p>
+                <p className="text-gray-600">Afectados en Córdoba</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
