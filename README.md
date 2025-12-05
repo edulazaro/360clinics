@@ -2,7 +2,7 @@
 
 Web oficial de la **Asociación de Afectados por 360 Clinics**, una comunidad de apoyo para personas afectadas por las prácticas de 360 Clinics.
 
-🌐 **Web**: [afectados360clinics.com](https://afectados360clinics.com)
+🌐 **Web**: [afectados360.com](https://afectados360.com)
 
 ## Sobre la Asociación
 
@@ -20,7 +20,7 @@ Somos una asociación sin ánimo de lucro creada para apoyar y defender los dere
 
 ## Enlaces Importantes
 
-- 🌐 [Web de la Asociación](https://afectados360clinics.com)
+- 🌐 [Web de la Asociación](https://afectados360.com)
 - 💬 [Grupo de WhatsApp](https://chat.whatsapp.com/J1JoCd8oFAK2LNssQarGlt)
 - ⚖️ [Caso en Claimeet](https://claimeet.com/cases/360-clinics)
 
