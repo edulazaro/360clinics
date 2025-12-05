@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-warm-50 text-gray-800;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold
+           hover:bg-primary-700 transition-all duration-300 shadow-lg
+           hover:shadow-xl transform hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold
+           border-2 border-primary-600 hover:bg-primary-50 transition-all
+           duration-300 shadow-md hover:shadow-lg;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+  }
+}
+
+/* Gentle bounce animation with physics-like easing */
+@keyframes gentle-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-gentle-bounce {
+  animation: gentle-bounce 3s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+/* Wave animations */
+@keyframes wave1 {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-80px);
+  }
+}
+
+@keyframes wave2 {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+}
+
+@keyframes wave3 {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-60px);
+  }
+}
+
+.animate-wave1 {
+  animation: wave1 6s ease-in-out infinite;
+}
+
+.animate-wave2 {
+  animation: wave2 4s ease-in-out infinite;
+}
+
+.animate-wave3 {
+  animation: wave3 5s ease-in-out infinite;
+}
