@@ -210,31 +210,50 @@ DNI: [tu número]`}
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">
-                      Unirse a Claimeet y Subir Documentos
+                      Unirse a la Asociación
                     </h3>
                     <p className="text-gray-600 mb-3">
-                      Apúntate en Claimeet y sube tus documentos (facturas, comprobantes de pago,
-                      contratos, pruebas de comunicación).
+                      Regístrate en Claimeet, únete a la Asociación de Afectados y sube tus documentos
+                      (facturas, comprobantes de pago, contratos, pruebas de comunicación).
                     </p>
-                    <div className="bg-primary-50 p-3 rounded-lg text-sm space-y-2">
-                      <p className="font-semibold text-gray-900">📁 Documentos a subir:</p>
-                      <ul className="list-disc list-inside text-gray-700 space-y-1">
-                        <li>Facturas</li>
-                        <li>Comprobantes de pago</li>
-                        <li>Contratos</li>
-                        <li>Pruebas de comunicación</li>
-                      </ul>
-                      <a
-                        href="https://claimeet.com/cases/360-clinics"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold mt-2"
-                      >
-                        Ir a Claimeet
-                        <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </svg>
-                      </a>
+                    <div className="bg-primary-50 p-3 rounded-lg text-sm space-y-3">
+                      <div>
+                        <p className="font-semibold text-gray-900 mb-2">1. Regístrate en Claimeet:</p>
+                        <a
+                          href="https://claimeet.com/cases/360-clinics"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
+                        >
+                          Ir a Claimeet
+                          <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </a>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-gray-900 mb-2">2. Únete a la Asociación (requiere registro previo):</p>
+                        <a
+                          href="https://claimeet.com/processes/01kcjfhqv5vk7wq5fweyd3d48d"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
+                        >
+                          Formulario de la Asociación
+                          <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </a>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-gray-900 mb-2">3. Documentos a subir:</p>
+                        <ul className="list-disc list-inside text-gray-700 space-y-1">
+                          <li>Facturas</li>
+                          <li>Comprobantes de pago</li>
+                          <li>Contratos</li>
+                          <li>Pruebas de comunicación</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
