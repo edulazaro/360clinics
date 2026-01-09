@@ -79,7 +79,7 @@ export default function Testimonials() {
             <div className="grid md:grid-cols-2 gap-8">
 
               {/* Columna 1: Acción Individual */}
-              <div className="md:order-last">
+              <div className="order-last">
                 <h4 className="text-xl font-bold text-primary-600 mb-4 text-center">
                   Acción Individual
                 </h4>
