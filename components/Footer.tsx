@@ -94,7 +94,7 @@ export default function Footer() {
           </div>
 
           {/* Enlaces rápidos */}
-          <div>
+          <div className="text-center md:text-left">
             <h3 className="text-white text-lg font-bold mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2">
               <li>
@@ -133,7 +133,7 @@ export default function Footer() {
           </div>
 
           {/* Recursos */}
-          <div>
+          <div className="text-center md:text-left">
             <h3 className="text-white text-lg font-bold mb-4">Recursos</h3>
             <ul className="space-y-2">
               <li>
@@ -141,7 +141,7 @@ export default function Footer() {
                   href="https://claimeet.com/cases/360-clinics"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors flex items-center"
+                  className="text-gray-400 hover:text-white transition-colors flex items-center justify-center md:justify-start"
                 >
                   Caso en Claimeet
                   <svg
