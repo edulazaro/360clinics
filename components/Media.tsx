@@ -10,7 +10,7 @@ export default function Media() {
             Nuestra causa está teniendo repercusión mediática. Aquí puedes ver algunas de las apariciones.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <a
               href="https://www.telemadrid.es/programas/buenos-dias-madrid/El-cierre-de-una-cadena-de-clinicas-esteticas-deja-cientos-de-afectados-en-Madrid-Nos-sentimos-estafados-2-2840435932--20251204085934.html"
               target="_blank"

@@ -11,7 +11,7 @@ export default function Contact() {
             comunidad de WhatsApp.
           </p>
 
-          <div className="max-w-2xl mx-auto space-y-6">
+          <div className="grid md:grid-cols-2 gap-6">
             <div className="card border-l-4 border-primary-500">
               <div className="flex items-start">
                 <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">

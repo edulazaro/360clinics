@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="sobre-nosotros" className="bg-white">
       <div className="section-container">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-gray-900 mb-12">
             Sobre La Asociación
           </h2>
