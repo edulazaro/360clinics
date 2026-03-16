@@ -90,8 +90,8 @@ export default function Testimonials() {
                 {/* Paso 1 */}
                 <div className="relative">
                   <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">
+                    <div className="flex items-start step-row">
+                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
                         1
                       </div>
                       <div className="flex-1">
@@ -187,8 +187,8 @@ DNI: [tu número]`}
                 {/* Paso 2 */}
                 <div className="relative">
                   <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">
+                    <div className="flex items-start step-row">
+                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
                         2
                       </div>
                       <div className="flex-1">
@@ -222,8 +222,8 @@ DNI: [tu número]`}
                 {/* Paso 1 */}
                 <div className="relative">
                   <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">
+                    <div className="flex items-start step-row">
+                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
                         1
                       </div>
                       <div className="flex-1">
@@ -287,8 +287,8 @@ DNI: [tu número]`}
                 {/* Paso 2 */}
                 <div className="relative">
                   <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">
+                    <div className="flex items-start step-row">
+                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
                         2
                       </div>
                       <div className="flex-1">
@@ -319,8 +319,8 @@ DNI: [tu número]`}
                 {/* Paso 3 */}
                 <div className="relative">
                   <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold">
+                    <div className="flex items-start step-row">
+                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
                         3
                       </div>
                       <div className="flex-1">

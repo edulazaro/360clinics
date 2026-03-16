@@ -8,16 +8,22 @@ const PRICE_BEFORE = 40;
 const PRICE_AFTER = 60;
 
 export default function BottomBanner() {
-  const [diff, setDiff] = useState(DEADLINE - Date.now());
+  const [visible, setVisible] = useState(true);
+  const [mounted, setMounted] = useState(false);
+  const [diff, setDiff] = useState(0);
 
   useEffect(() => {
+    setMounted(true);
+    setDiff(DEADLINE - Date.now());
     const interval = setInterval(() => {
       setDiff(DEADLINE - Date.now());
     }, 1000);
     return () => clearInterval(interval);
   }, []);
 
-  const expired = diff <= 0;
+  if (!visible) return null;
+
+  const expired = mounted && diff <= 0;
   const price = expired ? PRICE_AFTER : PRICE_BEFORE;
 
   const days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -27,11 +33,18 @@ export default function BottomBanner() {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 bg-gray-800 text-white shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm sm:text-base">
+      <button
+        onClick={() => setVisible(false)}
+        className="absolute top-2 right-2 text-gray-400 hover:text-white transition-colors text-xl leading-none"
+        aria-label="Cerrar"
+      >
+        ✕
+      </button>
+      <div className="max-w-7xl mx-auto px-4 py-3 pr-10 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm sm:text-base">
         <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3">
           <span className="font-bold text-lg">{price}€/afectado</span>
 
-          {!expired && (
+          {mounted && !expired && (
             <span className="flex flex-col sm:flex-row items-center gap-1 bg-gray-700 rounded-md px-2 py-1 text-xs sm:text-sm font-mono">
               <span className="flex items-center gap-1">
                 <span>⏳</span>
