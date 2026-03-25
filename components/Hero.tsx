@@ -104,8 +104,8 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <a href="#contacto" className="btn-primary w-full sm:w-auto">
-              Necesito Ayuda
+            <a href="#pasos" className="btn-primary w-full sm:w-auto">
+              Únete
             </a>
             <a href="#sobre-nosotros" className="btn-secondary w-full sm:w-auto">
               Conocer Más

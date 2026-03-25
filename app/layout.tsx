@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import BottomBanner from "@/components/BottomBanner";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -53,7 +53,7 @@ export default function RootLayout({
     <html lang="es">
       <body className={inter.className}>
         {children}
-        <BottomBanner />
+
       </body>
     </html>
   );

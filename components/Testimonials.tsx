@@ -14,8 +14,187 @@ export default function Testimonials() {
           {/* Proceso paso a paso */}
           <div className="mb-12">
 
+            {/* Sección: Comienza aquí */}
+            <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
+              Comienza aquí
+            </h3>
+            <hr className="border-gray-300 mb-12" />
+
+            {/* Grid de 2 columnas */}
+            <div className="grid md:grid-cols-2 gap-8">
+
+              {/* Columna 1: No Socios */}
+              <div>
+                <h4 className="text-xl font-bold text-primary-600 mb-4 text-center">
+                  No Socios
+                </h4>
+                <p className="text-gray-600 mb-6 text-center">
+                  Hazte socio y únete a la acción colectiva.
+                </p>
+
+                {/* Paso 1 */}
+                <div className="relative">
+                  <div className="card border-l-4 border-primary-600">
+                    <div className="flex items-start step-row">
+                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
+                        1
+                      </div>
+                      <div className="flex-1">
+                        <h5 className="text-lg font-bold text-gray-900 mb-2">
+                          Unirse a la Asociación
+                        </h5>
+                        <p className="text-gray-600 mb-3">
+                          Regístrate en Claimeet, únete a la Asociación de Afectados y sube tus documentos.
+                        </p>
+                        <div className="bg-primary-50 p-3 rounded-lg text-sm space-y-3">
+                          <div>
+                            <p className="font-semibold text-gray-900 mb-2">1. Regístrate en Claimeet:</p>
+                            <a
+                              href="https://claimeet.com/cases/360-clinics"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
+                            >
+                              Ir a Claimeet
+                              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                              </svg>
+                            </a>
+                          </div>
+                          <div>
+                            <p className="font-semibold text-gray-900 mb-2">2. Únete a la Asociación:</p>
+                            <a
+                              href="https://claimeet.com/processes/01kcjfhqv5vk7wq5fweyd3d48d"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
+                            >
+                              Formulario de la Asociación
+                              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                              </svg>
+                            </a>
+                            <p className="text-gray-700 mt-2">
+                              Recibirás un enlace al grupo de WhatsApp de la denuncia en tu email.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Flecha */}
+                  <div className="flex justify-center py-3">
+                    <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                    </svg>
+                  </div>
+                </div>
+
+                {/* Paso 2 */}
+                <div className="relative">
+                  <div className="card border-l-4 border-primary-600">
+                    <div className="flex items-start step-row">
+                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
+                        2
+                      </div>
+                      <div className="flex-1">
+                        <h5 className="text-lg font-bold text-gray-900 mb-2">
+                          Acciones Legales como Asociación
+                        </h5>
+                        <p className="text-gray-600 mb-3">
+                          Tomaremos todas las medidas legales oportunas y necesarias como asociación
+                          para defender los derechos de los afectados.
+                        </p>
+                        <div className="bg-primary-50 p-3 rounded-lg text-sm">
+                          <p className="text-gray-700">
+                            ⚖️ <strong>Fuerza colectiva:</strong> Unidos tenemos más fuerza legal.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Columna 2: Socios */}
+              <div>
+                <h4 className="text-xl font-bold text-primary-600 mb-4 text-center">
+                  Socios
+                </h4>
+                <p className="text-gray-600 mb-6 text-center">
+                  Ya eres socio, apúntate a la denuncia.
+                </p>
+
+                {/* Paso 1 */}
+                <div className="relative">
+                  <div className="card border-l-4 border-primary-600">
+                    <div className="flex items-start step-row">
+                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
+                        1
+                      </div>
+                      <div className="flex-1">
+                        <h5 className="text-lg font-bold text-gray-900 mb-2">
+                          Apuntarse a la Denuncia
+                        </h5>
+                        <p className="text-gray-600 mb-3">
+                          Si no te has apuntado a tiempo a la denuncia, debes hacerlo aquí:
+                        </p>
+                        <div className="bg-primary-50 p-3 rounded-lg text-sm">
+                          <a
+                            href="https://claimeet.com/cases/360-clinics/processes/01kmkj0bcc9tcnjyppf6vangsf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
+                          >
+                            Apuntarse a la denuncia
+                            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Flecha */}
+                  <div className="flex justify-center py-3">
+                    <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                    </svg>
+                  </div>
+                </div>
+
+                {/* Paso 2 */}
+                <div className="relative">
+                  <div className="card border-l-4 border-primary-600">
+                    <div className="flex items-start step-row">
+                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
+                        2
+                      </div>
+                      <div className="flex-1">
+                        <h5 className="text-lg font-bold text-gray-900 mb-2">
+                          Acciones Legales como Asociación
+                        </h5>
+                        <p className="text-gray-600 mb-3">
+                          Tomaremos todas las medidas legales oportunas y necesarias como asociación
+                          para defender los derechos de los afectados.
+                        </p>
+                        <div className="bg-primary-50 p-3 rounded-lg text-sm">
+                          <p className="text-gray-700">
+                            ⚖️ <strong>Fuerza colectiva:</strong> Unidos tenemos más fuerza legal.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
             {/* Sección: ¿Has financiado? */}
-            <div className="mb-12">
+            <div className="mt-12">
               <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
                 ¿Has financiado?
               </h3>
@@ -62,286 +241,11 @@ export default function Testimonials() {
                       </div>
                     </div>
                     <p className="text-gray-700 mt-3 font-medium">
-                      Después de reclamar a tu financiera, continúa con los pasos de abajo.
+                      Después de reclamar a tu financiera, continúa con los pasos de arriba.
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-
-            {/* Sección: ¿No has financiado? */}
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
-              ¿No has financiado? Comienza aquí
-            </h3>
-            <hr className="border-gray-300 mb-12" />
-
-            {/* Grid de 2 columnas */}
-            <div className="grid md:grid-cols-2 gap-8">
-
-              {/* Columna 1: Acción Individual */}
-              <div className="order-last">
-                <h4 className="text-xl font-bold text-primary-600 mb-4 text-center">
-                  Acción Individual
-                </h4>
-                <p className="text-gray-600 mb-6 text-center">
-                  Procede por tu cuenta o ayuda a reforzar la acción colectiva.
-                </p>
-
-                {/* Paso 1 */}
-                <div className="relative">
-                  <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start step-row">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
-                        1
-                      </div>
-                      <div className="flex-1">
-                        <h5 className="text-lg font-bold text-gray-900 mb-2">
-                          Enviar Burofax o Correo Certificado
-                        </h5>
-                        <p className="text-gray-600 mb-3">
-                          Manda un burofax o correo certificado con acuse de recibo a la empresa
-                          que aparece en tu contrato. Tienen 30 días para contestar.
-                        </p>
-                        <div className="bg-primary-50 p-3 rounded-lg text-sm space-y-2">
-                          <p className="font-semibold text-gray-900">📍 Direcciones importantes:</p>
-                          <ul className="list-disc list-outside pl-5 text-gray-700 space-y-1">
-                            <li>Busca tu empresa en <a href="https://claimeet.com/cases/360-clinics/threads/01k9jyvjph8v8dfg06r27dns7z" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 font-semibold">este post</a> y si no la encuentras en <a href="https://www.empresia.es" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 font-semibold">empresia.es</a></li>
-                            <li>Si no hay contrato: <strong>Aquaestetica Consultores SL (CIF: B86050986)</strong> <br/>Calle Margarita Salas núm. 16 Bajo C, 28919 Leganés, Madrid</li>
-                            <li>También envía mail a: <strong>info@360clinics.es</strong></li>
-                          </ul>
-                        </div>
-
-                        <details className="mt-3 bg-white border border-primary-200 rounded-lg">
-                          <summary className="cursor-pointer p-3 font-semibold text-primary-600 hover:text-primary-700 flex items-center text-sm">
-                            📄 Ver MODELO DE CARTA PARA BUROFAX
-                          </summary>
-                          <div className="p-4 text-xs text-gray-700 border-t border-primary-100 whitespace-pre-line">
-{`[Tu nombre y apellidos]
-[Tu dirección completa]
-[Código postal y localidad]
-[DNI/NIE]
-Teléfono: [tu número]
-Correo electrónico: [tu email]
-
-A la atención de:
-360 Clinics S.L.
-[Dirección social de la empresa si la conoces; si no, puedes poner: "Domicilio social según conste en el Registro Mercantil"]
-
-En [Ciudad], a [fecha]
-
----
-
-ASUNTO: Reclamación por cierre del centro y solicitud de devolución del importe abonado por tratamiento no prestado
-
-Estimados señores:
-
-Yo, [nombre y apellidos], con DNI [tu número], contraté con su empresa 360 Clinics S.L. un tratamiento de depilación láser en el centro ubicado en [indicar la dirección o localidad del centro cerrado], con fecha aproximada de [fecha de contratación o primera sesión].
-
-He abonado la cantidad total de [importe exacto o aproximado] €, por un número total de [número de sesiones contratadas] sesiones, de las cuales únicamente se me han prestado [número de sesiones recibidas], quedando pendientes [número de sesiones restantes].
-
-Recientemente he tenido conocimiento de que el centro ha cerrado sin previo aviso y sin ofrecer alternativa ni reembolso, lo cual supone un incumplimiento del contrato y una vulneración de mis derechos como consumidora, conforme al Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se aprueba el Texto Refundido de la Ley General para la Defensa de los Consumidores y Usuarios.
-
-Por todo lo anterior, les requiero formalmente mediante el presente burofax para que, en un plazo máximo de 10 días naturales desde la recepción del mismo, procedan a:
-
-1. Reintegrar el importe correspondiente a las sesiones no disfrutadas ([importe estimado o total pendiente] €) mediante transferencia bancaria a la cuenta [tu IBAN], o bien,
-
-2. Ofrecer una solución alternativa válida y por escrito (por ejemplo, la realización del tratamiento en otro centro activo, sin coste adicional y con las mismas condiciones).
-
-En caso de no recibir respuesta o solución satisfactoria en el plazo indicado, me veré obligada a presentar reclamación formal ante las autoridades competentes de Consumo y, en su caso, iniciar acciones legales para la recuperación de las cantidades abonadas.
-
-Sin otro particular, quedo a la espera de su respuesta por escrito.
-
-Atentamente,
-
-Firma: __________
-Nombre completo: [tu nombre y apellidos]
-DNI: [tu número]`}
-                          </div>
-                        </details>
-
-                        <div className="mt-3">
-                          <a
-                            href="https://drive.google.com/file/d/1Yl2eir6nJoF0P3Xm4k1OvevDRHZQpSrN/view?usp=sharing"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-primary-600 hover:text-primary-700 font-semibold inline-flex items-center text-sm"
-                          >
-                            Descargar modelo de burofax
-                            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Flecha */}
-                  <div className="flex justify-center py-3">
-                    <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                    </svg>
-                  </div>
-                </div>
-
-                {/* Paso 2 */}
-                <div className="relative">
-                  <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start step-row">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
-                        2
-                      </div>
-                      <div className="flex-1">
-                        <h5 className="text-lg font-bold text-gray-900 mb-2">
-                          Presentar Queja en Consumo
-                        </h5>
-                        <p className="text-gray-600 mb-3">
-                          Adjunta el burofax y el mail enviado para demostrar que intentaste
-                          resolver por las buenas. Esto fortalece tu reclamación.
-                        </p>
-                        <div className="bg-primary-50 p-3 rounded-lg text-sm">
-                          <p className="text-gray-700">
-                            💡 <strong>Importante:</strong> Guarda copias de todos los documentos enviados.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Columna 2: Acción Colectiva */}
-              <div>
-                <h4 className="text-xl font-bold text-primary-600 mb-4 text-center">
-                  Acción Colectiva
-                </h4>
-                <p className="text-gray-600 mb-6 text-center">
-                  Mayor impacto legal actuando como grupo.
-                </p>
-
-                {/* Paso 1 */}
-                <div className="relative">
-                  <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start step-row">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
-                        1
-                      </div>
-                      <div className="flex-1">
-                        <h5 className="text-lg font-bold text-gray-900 mb-2">
-                          Unirse a la Asociación
-                        </h5>
-                        <p className="text-gray-600 mb-3">
-                          Regístrate en Claimeet, únete a la Asociación de Afectados y sube tus documentos.
-                        </p>
-                        <div className="bg-primary-50 p-3 rounded-lg text-sm space-y-3">
-                          <div>
-                            <p className="font-semibold text-gray-900 mb-2">1. Regístrate en Claimeet:</p>
-                            <a
-                              href="https://claimeet.com/cases/360-clinics"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
-                            >
-                              Ir a Claimeet
-                              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                              </svg>
-                            </a>
-                          </div>
-                          <div>
-                            <p className="font-semibold text-gray-900 mb-2">2. Únete a la Asociación:</p>
-                            <a
-                              href="https://claimeet.com/processes/01kcjfhqv5vk7wq5fweyd3d48d"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center text-primary-600 hover:text-primary-700 font-semibold"
-                            >
-                              Formulario de la Asociación
-                              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                              </svg>
-                            </a>
-                          </div>
-                          <div>
-                            <p className="font-semibold text-gray-900 mb-2">3. Documentos a subir:</p>
-                            <ul className="list-disc list-inside text-gray-700 space-y-1">
-                              <li>Facturas</li>
-                              <li>Comprobantes de pago</li>
-                              <li>Contratos</li>
-                              <li>Pruebas de comunicación</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Flecha */}
-                  <div className="flex justify-center py-3">
-                    <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                    </svg>
-                  </div>
-                </div>
-
-                {/* Paso 2 */}
-                <div className="relative">
-                  <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start step-row">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
-                        2
-                      </div>
-                      <div className="flex-1">
-                        <h5 className="text-lg font-bold text-gray-900 mb-2">
-                          Concurso de Acreedores
-                        </h5>
-                        <p className="text-gray-600 mb-3">
-                          Como asociación, acudiremos al concurso de acreedores para defender
-                          los intereses de todos los afectados de forma conjunta.
-                        </p>
-                        <div className="bg-primary-50 p-3 rounded-lg text-sm">
-                          <p className="text-gray-700">
-                            💡 <strong>Nota:</strong> Si no se declara concurso, pasaremos al siguiente paso.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Flecha */}
-                  <div className="flex justify-center py-3">
-                    <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                    </svg>
-                  </div>
-                </div>
-
-                {/* Paso 3 */}
-                <div className="relative">
-                  <div className="card border-l-4 border-primary-600">
-                    <div className="flex items-start step-row">
-                      <div className="w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold step-number">
-                        3
-                      </div>
-                      <div className="flex-1">
-                        <h5 className="text-lg font-bold text-gray-900 mb-2">
-                          Acciones Legales como Asociación
-                        </h5>
-                        <p className="text-gray-600 mb-3">
-                          Tomaremos todas las medidas legales oportunas y necesarias como asociación
-                          para defender los derechos de los afectados.
-                        </p>
-                        <div className="bg-primary-50 p-3 rounded-lg text-sm">
-                          <p className="text-gray-700">
-                            ⚖️ <strong>Fuerza colectiva:</strong> Unidos tenemos más fuerza legal.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
 
